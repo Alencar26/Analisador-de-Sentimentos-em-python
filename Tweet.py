@@ -14,6 +14,7 @@ consumerSecret = 'Sua Key'
 accessToken = 'Sua Key'
 accessTokenSecret = 'Sua Key'
 
+
 auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
 auth.set_access_token(accessToken, accessTokenSecret)
 api = tweepy.API(auth, wait_on_rate_limit=True)
