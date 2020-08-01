@@ -9,10 +9,10 @@ def percentage(part, whole):
     return 100 * float(part)/float(whole)
 
 # ESSAS KEYs SÃO FORNECIDAS PELO TWITTER PARA QUEM TEM CONTA DE DEV.  
-consumerKey = 'D4LZOozRk9KE3NGjcWh0mvZX2'
-consumerSecret = 'GHQxJBWg1aCF0cXWcMntfipqVLHSZT5alMN4HJLGoEO2EjV9sK'
-accessToken = '1168214859596648454-ugzKDxymoeRgIC0K6wtB3Mbkl8Nl9k'
-accessTokenSecret = 'TzAWXPnGRVw4EnhaeZQlIhUym8AGkmeUKNBVGwdB4Z7fo'
+consumerKey = 'Sua Key'
+consumerSecret = 'Sua Key'
+accessToken = 'Sua Key'
+accessTokenSecret = 'Sua Key'
 
 auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
 auth.set_access_token(accessToken, accessTokenSecret)
